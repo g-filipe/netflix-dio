@@ -109,7 +109,7 @@ header nav a:hover{
     font-size: 16px;
     background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/capa-greys-anatomy.jpg');
 
-    height: 700px;
+    height: 560px;
     background-size: cover;
 
     display:flex;
@@ -121,11 +121,15 @@ header nav a:hover{
 .filme-principal .descricao{
     margin-top: 10px;
     margin-bottom: 40px;
+    font-family: 'Netflix Sans Regular';
+    font-size: 17px;
+    text-align: justify;
+    
 }
 
 .filme-principal .titulo{
     margin-top: 15%;
-    font-size: 40px;
+    font-size: 46px;
     font-family: 'Netflix Sans Bold';
 }
 
@@ -145,4 +149,16 @@ header nav a:hover{
 .botao:hover{
     background-color: rgb(255, 255, 255);
     color: rgb(0,0,0);
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 60%;
 }
