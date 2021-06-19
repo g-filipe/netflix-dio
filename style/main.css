@@ -95,12 +95,12 @@ header .logo{
 
 header nav a{
     text-decoration: none;
-    color: #AAA;
+    color: #fff;
     margin-right: 10px;
 }
 
 header nav a:hover{
-    color: #fff;
+    color:#AAA; ;
 }
 
 /* FILME PRINCIPAL */
