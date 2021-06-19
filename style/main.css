@@ -109,7 +109,7 @@ header nav a:hover{
     font-size: 16px;
     background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/capa-greys-anatomy.jpg');
 
-    height: 560px;
+    height: 650px;
     background-size: cover;
 
     display:flex;
@@ -161,4 +161,10 @@ header nav a:hover{
 
 .filme-principal .container{
     width: 60%;
+}
+
+.box-series{
+    height: 100%;
+    width: 100%;
+    display: block;
 }
