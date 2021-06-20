@@ -1,7 +1,5 @@
 /* FONTES EXTERNAS NETFLIX */
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');  /*FONTE LOGO*/
-
 @font-face {
     font-family: 'Netflix Sans Regular';
     font-style: normal;
@@ -9,39 +7,6 @@
     src: local('Netflix Sans Regular'), url('NetflixSansRegular.woff') format('woff');
     }
     
-
-    @font-face {
-    font-family: 'Netflix Sans Icon';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Netflix Sans Icon'), url('NetflixSansIcon.woff') format('woff');
-    }
-    
-
-    @font-face {
-    font-family: 'Netflix Sans Thin';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Netflix Sans Thin'), url('NetflixSansThin.woff') format('woff');
-    }
-    
-
-    @font-face {
-    font-family: 'Netflix Sans Light';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Netflix Sans Light'), url('NetflixSansLight.woff') format('woff');
-    }
-    
-
-    @font-face {
-    font-family: 'Netflix Sans Medium';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Netflix Sans Medium'), url('NetflixSansMedium.woff') format('woff');
-    }
-    
-
     @font-face {
     font-family: 'Netflix Sans Bold';
     font-style: normal;
@@ -49,14 +14,6 @@
     src: local('Netflix Sans Bold'), url('NetflixSansBold.woff') format('woff');
     }
     
-
-    @font-face {
-    font-family: 'Netflix Sans Black';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Netflix Sans Black'), url('NetflixSansBlack.woff') format('woff');
-    }
-
 /* VARIÁVEIS DE CORES */
 
 :root{
@@ -78,21 +35,26 @@ body{
     color: rgb(255, 255, 255);
 }
 
-
-header .container{
+header{
     display:flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    height: 68px;
+    background:#030507;
 }
 
 header .logo{
-    margin-left: 5px;
-    color: var(--vermelho);
-    font-family: 'bebas Neue', Times;
-    font-size: 50px;
+    margin-left:45px;
+    margin-top: 4px;
+    height: 34px
 }
 
+nav{
+    margin-left: 52px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold ;
+} 
 header nav a{
     text-decoration: none;
     color: #fff;
@@ -103,9 +65,9 @@ header nav a:hover{
     color:#AAA; ;
 }
 
-/* FILME PRINCIPAL */
+/* SÉRIE PRINCIPAL */
 
-.filme-principal{
+.serie-principal{
     font-size: 16px;
     background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('../img/capa-greys-anatomy.jpg');
 
@@ -118,16 +80,15 @@ header nav a:hover{
     align-items: flex-start;
 }
 
-.filme-principal .descricao{
+.serie-principal .descricao{
     margin-top: 10px;
     margin-bottom: 40px;
     font-family: 'Netflix Sans Regular';
     font-size: 17px;
     text-align: justify;
-    
 }
 
-.filme-principal .titulo{
+.serie-principal .titulo{
     margin-top: 15%;
     font-size: 46px;
     font-family: 'Netflix Sans Bold';
@@ -159,7 +120,7 @@ header nav a:hover{
     margin-left: 20px;
 }
 
-.filme-principal .container{
+.serie-principal .container{
     width: 60%;
 }
 
@@ -168,3 +129,4 @@ header nav a:hover{
     width: 100%;
     display: block;
 }
+
